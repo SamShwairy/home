@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Home 24</string>
+    <string name="article">Article</string>
+    <string name="article_image">Article Image</string>
+    <string name="please_make_sure">Please make sure you are connected to the internet.</string>
+    <string name="an_error_occurred">An Error has occurred</string>
+    <string name="startInterface">Start</string>
+    <string name="tap_to_begin">Tap the START button to begin</string>
+    <string name="review">Review</string>
+    <string name="list">List</string>
+    <string name="grid">Grid</string>
+    <string name="reviewing_item_number">Reviewing Article Number:</string>
+    <string name="number_of_reviewed_items">Number of Reviewed Articles</string>
+    <string name="press_on_article">Pressing on an article lets you Re-Review it</string>
+    <string name="like_dislike_image">Like Dislike Image</string>
+</resources>

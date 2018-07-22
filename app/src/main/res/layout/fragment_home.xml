@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="@dimen/unit_100"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/app_name"
+        android:layout_marginTop="@dimen/unit_32"
+        android:src="@drawable/logo_home_24" />
+
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@color/colorPrimary"
+        android:elevation="@dimen/unit_2"
+        android:paddingEnd="@dimen/unit_32"
+        android:paddingStart="@dimen/unit_32"
+        android:text="@string/startInterface"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/startButton"
+        android:layout_marginTop="@dimen/unit_32"
+        android:gravity="center"
+        android:text="@string/tap_to_begin"
+        android:textColor="@color/primaryText" />
+</RelativeLayout>
