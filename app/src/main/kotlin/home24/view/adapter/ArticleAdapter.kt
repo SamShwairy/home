@@ -65,15 +65,12 @@ class ArticleAdapter(articleList: ArrayList<ArticleEntity>?, reviewedItemsNumber
         else Parameters.API_DEFAULT_LIMIT
     }
 
-    fun setReviewedNumber(reviewedItemsNumber: Int, articleList: ArrayList<ArticleEntity>?) {
+   fun setReviewedNumber(reviewedItemsNumber: Int, articleList: ArrayList<ArticleEntity>?) {
         //Assigning the new list with the statuses whether liked or disliked
         myChildren = articleList
-        //Notifying item to show whether it was liked or disliked
-        for(position in (0..reviewedItemsNumber))
-        notifyItemChanged(position)
         //Assigning the number of reviewed items
         mReviewedItemsNumber = reviewedItemsNumber
         //Notifying the adapter with Animation
-        notifyItemInserted(reviewedItemsNumber)
+        notifyItemRangeChanged(0,mReviewedItemsNumber)
     }
 }
